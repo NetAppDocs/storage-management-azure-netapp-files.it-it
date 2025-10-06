@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-azure-ad.html 
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal 
-summary: 'La console NetApp necessita delle autorizzazioni per configurare e gestire Azure NetApp Files.  È possibile concedere le autorizzazioni necessarie a un account Azure creando e configurando un"applicazione Microsoft Entra e ottenendo le credenziali di Azure necessarie alla console.' 
+summary: 'La NetApp Console necessita delle autorizzazioni per configurare e gestire Azure NetApp Files.  È possibile concedere le autorizzazioni necessarie a un account Azure creando e configurando un"applicazione Microsoft Entra e ottenendo le credenziali di Azure necessarie alla console.' 
 ---
 = Configurare un'applicazione Microsoft Entra
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'La console NetApp necessita delle autorizzazioni per configurare e ges
 
 
 [role="lead"]
-La console NetApp necessita delle autorizzazioni per configurare e gestire Azure NetApp Files.  È possibile concedere le autorizzazioni necessarie a un account Azure creando e configurando un'applicazione Microsoft Entra e ottenendo le credenziali di Azure necessarie alla console.
+La NetApp Console necessita delle autorizzazioni per configurare e gestire Azure NetApp Files.  È possibile concedere le autorizzazioni necessarie a un account Azure creando e configurando un'applicazione Microsoft Entra e ottenendo le credenziali di Azure necessarie alla console.
 
 
 

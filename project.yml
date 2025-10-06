@@ -24,7 +24,7 @@ sidebar:
       url: "/task-quick-start.html"
     - title: Configurare un'applicazione Microsoft Entra
       url: "/task-set-up-azure-ad.html"
-    - title: Crea un sistema
+    - title: Creare un sistema
       url: "/task-create-system.html"
   - title: Utilizzare Azure NetApp Files
     entries:

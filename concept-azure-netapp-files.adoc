@@ -27,9 +27,9 @@ Azure NetApp Files consente alle aziende di migrare ed eseguire le loro applicaz
 
 
 
-=== Funzionalità aggiuntive nella console NetApp
+=== Funzionalità aggiuntive nella NetApp Console
 
-* Migra i dati NFS o SMB in Azure NetApp Files direttamente dalla console NetApp .  Le migrazioni dei dati sono gestite da NetApp Copy and Sync.
+* Migra i dati NFS o SMB in Azure NetApp Files direttamente dalla NetApp Console.  Le migrazioni dei dati sono supportate da NetApp Copy and Sync.
 +
 https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["Scopri di più su Copia e sincronizzazione"^]
 
@@ -41,15 +41,15 @@ https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.htm
 
 
 
-== Console NetApp
+== NetApp Console
 
-È possibile accedere Azure NetApp Files tramite la console NetApp .
+È possibile accedere Azure NetApp Files tramite la NetApp Console.
 
 NetApp Console offre una gestione centralizzata dei servizi di storage e dati NetApp in ambienti on-premise e cloud di livello aziendale. La console è necessaria per accedere e utilizzare i servizi dati NetApp . In quanto interfaccia di gestione, consente di gestire numerose risorse di archiviazione da un'unica interfaccia. Gli amministratori della console possono controllare l'accesso allo storage e ai servizi per tutti i sistemi all'interno dell'azienda.
 
 Per iniziare a utilizzare NetApp Console non è necessaria una licenza o un abbonamento e verranno addebitati costi solo quando sarà necessario distribuire gli agenti della console nel cloud per garantire la connettività ai sistemi di storage o ai servizi dati NetApp . Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono concessi in licenza o basati su abbonamento.
 
-Scopri di più sulink:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Console NetApp"^] .
+Scopri di più sulink:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"^] .
 
 
 
@@ -75,7 +75,7 @@ Per problemi di supporto tecnico associati ad Azure NetApp Files, utilizzare il 
 
 == Link correlati
 
-* link:https://bluexp.netapp.com/azure-netapp-files["Sito Web della console NetApp : Azure NetApp Files"^]
+* link:https://bluexp.netapp.com/azure-netapp-files["Sito Web NetApp Console : Azure NetApp Files"^]
 * link:https://learn.microsoft.com/azure/azure-netapp-files/["Documentazione Azure NetApp Files"^]
 * link:https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Copia e sincronizza la documentazione"^]
 

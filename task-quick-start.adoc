@@ -22,4 +22,4 @@ Da Azure, concedi le autorizzazioni a un'applicazione Microsoft Entra e copia l'
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] link:task-create-system.html["Creare un sistema Azure NetApp Files"]
 [role="quick-margin-para"]
-Dalla pagina Sistemi nella console NetApp , seleziona *Aggiungi sistema* > *Microsoft Azure* > * Azure NetApp Files*, quindi fornisci i dettagli sull'applicazione Active Directory.
+Dalla pagina Sistemi nella NetApp Console, seleziona *Aggiungi sistema* > *Microsoft Azure* > * Azure NetApp Files*, quindi fornisci i dettagli sull'applicazione Active Directory.

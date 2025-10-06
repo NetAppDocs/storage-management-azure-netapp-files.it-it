@@ -7,8 +7,7 @@ indexpage:
   keywords: Azure NetApp Files, netapp console
   lead: Azure NetApp Files è un servizio di archiviazione file nativo di Microsoft
     Azure ad alte prestazioni per le applicazioni aziendali principali.  Questa documentazione
-    descrive come configurare e gestire Azure NetApp Files utilizzando la console
-    NetApp
+    descrive come configurare e gestire Azure NetApp Files utilizzando la NetApp Console
   tiles:
   - title: Iniziare
     links:
@@ -24,9 +23,9 @@ indexpage:
       url: task-manage-volumes.html
   - title: Blog e comunità
     links:
-    - title: Console NetApp
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: Servizi dati NetApp
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: Comunità NetApp
       url: https://community.netapp.com/

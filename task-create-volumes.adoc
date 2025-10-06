@@ -74,10 +74,10 @@ image:screenshot-protocol-smb.png["Uno screenshot dei campi necessari per impost
 
 == Montare i volumi
 
-Accedi alle istruzioni di montaggio dalla console NetApp per poter montare il volume su un host.
+Accedi alle istruzioni di montaggio dalla NetApp Console per poter montare il volume su un host.
 
 .Passi
-. Nella console NetApp , aprire il sistema Azure NetApp Files .
+. Nella NetApp Console, aprire il sistema Azure NetApp Files .
 . Sposta il cursore sul volume, quindi seleziona i tre punti `...` accanto allo stato del volume.
 . Selezionare **Monta il volume**.
 +
