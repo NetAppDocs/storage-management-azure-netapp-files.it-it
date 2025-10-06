@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: concept-azure-netapp-files.html 
+keywords: azure netapp files, cost, price, features, azure netapp files features, anf, supported regions, azure regions, azure netapp files regions 
+summary: Azure NetApp Files consente alle aziende di migrare ed eseguire le loro applicazioni core business-critical ad alte prestazioni e sensibili alla latenza in Azure, senza dover effettuare il refactoring per il cloud. 
+---
+= Scopri di più su Azure NetApp Files
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure NetApp Files consente alle aziende di migrare ed eseguire le loro applicazioni core business-critical ad alte prestazioni e sensibili alla latenza in Azure, senza dover effettuare il refactoring per il cloud.
+
+
+
+== Caratteristiche
+
+* Il supporto per più protocolli consente di eseguire senza problemi le applicazioni Linux e Windows in Azure tramite il metodo "lift & shift".
+* I diversi livelli di prestazioni consentono uno stretto allineamento con i requisiti di prestazioni del carico di lavoro.
+* Le principali certificazioni, tra cui SAP HANA, GDPR e HIPAA, consentono la migrazione dei carichi di lavoro più impegnativi su Azure.
+
+
+
+
+=== Funzionalità aggiuntive nella console NetApp
+
+* Migra i dati NFS o SMB in Azure NetApp Files direttamente dalla console NetApp .  Le migrazioni dei dati sono gestite da NetApp Copy and Sync.
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["Scopri di più su Copia e sincronizzazione"^]
+
+* Utilizzando la tecnologia basata sull'intelligenza artificiale (IA), NetApp Data Classification può aiutarti a comprendere il contesto dei dati e a identificare i dati sensibili che risiedono nei tuoi account Azure NetApp Files .
++
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Scopri di più sulla classificazione dei dati"^]
+
+
+
+
+
+== Console NetApp
+
+È possibile accedere Azure NetApp Files tramite la console NetApp .
+
+NetApp Console offre una gestione centralizzata dei servizi di storage e dati NetApp in ambienti on-premise e cloud di livello aziendale. La console è necessaria per accedere e utilizzare i servizi dati NetApp . In quanto interfaccia di gestione, consente di gestire numerose risorse di archiviazione da un'unica interfaccia. Gli amministratori della console possono controllare l'accesso allo storage e ai servizi per tutti i sistemi all'interno dell'azienda.
+
+Per iniziare a utilizzare NetApp Console non è necessaria una licenza o un abbonamento e verranno addebitati costi solo quando sarà necessario distribuire gli agenti della console nel cloud per garantire la connettività ai sistemi di storage o ai servizi dati NetApp . Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono concessi in licenza o basati su abbonamento.
+
+Scopri di più sulink:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Console NetApp"^] .
+
+
+
+== Costo
+
+https://azure.microsoft.com/pricing/details/netapp/["Visualizza i prezzi Azure NetApp Files"^]
+
+L'abbonamento e la fatturazione vengono gestiti dal servizio Azure NetApp Files , non dalla console.
+
+
+
+== Regioni supportate
+
+https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza le regioni di Azure supportate"^]
+
+
+
+== Ottenere aiuto
+
+Per problemi di supporto tecnico associati ad Azure NetApp Files, utilizzare il portale di Azure per inviare una richiesta di supporto a Microsoft.  Seleziona l'abbonamento Microsoft associato e seleziona il nome del servizio * Azure NetApp Files* in *Archiviazione*.  Fornisci le informazioni rimanenti necessarie per creare la tua richiesta di supporto Microsoft.
+
+
+
+== Link correlati
+
+* link:https://bluexp.netapp.com/azure-netapp-files["Sito Web della console NetApp : Azure NetApp Files"^]
+* link:https://learn.microsoft.com/azure/azure-netapp-files/["Documentazione Azure NetApp Files"^]
+* link:https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Copia e sincronizza la documentazione"^]
+

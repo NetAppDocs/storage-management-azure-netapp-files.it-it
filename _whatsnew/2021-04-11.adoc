@@ -1,0 +1,13 @@
+= Supporto per modelli di volume
+:allow-uri-read: 
+
+
+
+
+=== Supporto per modelli di volume
+
+Un nuovo servizio Modelli applicazione consente di impostare un modello di volume per Azure NetApp Files.  Il modello dovrebbe semplificare il lavoro perché alcuni parametri del volume saranno già definiti nel modello, come il pool di capacità, le dimensioni, il protocollo, la rete virtuale e la subnet in cui il volume dovrebbe risiedere e altro ancora.  Quando un parametro è già predefinito, è possibile passare direttamente al parametro del volume successivo.
+
+* https://docs.netapp.com/us-en/bluexp-remediation/concept-resource-templates.html["Scopri di più sui modelli di applicazione e su come utilizzarli nel tuo ambiente"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-volumes.html["Scopri come creare un volume Azure NetApp Files da un modello"]
+

@@ -1,0 +1,87 @@
+---
+sidebar: sidebar 
+permalink: task-create-volumes.html 
+keywords: azure netapp files, create volumes, create nfs volumes, netapp account, capacity pool, create capacity pool, mount path, get mount path, find mount path, mount volume 
+summary: Dopo aver configurato il sistema, è possibile creare account, pool di capacità e volumi Azure NetApp Files . 
+---
+= Crea e monta volumi
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dopo aver configurato il sistema, è possibile creare account, pool di capacità e volumi Azure NetApp Files .
+
+
+
+== Creare volumi
+
+È possibile creare volumi NFS o SMB in un account Azure NetApp Files nuovo o esistente.
+
+.Prima di iniziare
+* Se si desidera utilizzare SMB, è necessario aver configurato DNS e Active Directory.
+* Quando si pianifica la creazione di un volume SMB, è necessario disporre di un server Windows Active Directory a cui connettersi.  Queste informazioni verranno inserite durante la creazione del volume.
+
+
+.Passi
+. Aprire il sistema Azure NetApp Files .
+. Selezionare *Aggiungi nuovo volume*.
+. Fornire le informazioni richieste in ogni pagina:
++
+** * Account Azure NetApp Files *: scegli un account Azure NetApp Files esistente o creane uno nuovo.  Quando si crea un nuovo account, è necessario selezionare anche il gruppo di risorse.  È possibile utilizzare un gruppo di risorse esistente o crearne uno nuovo.
++
+image:screenshot_anf_create_account.png["Uno screenshot dei campi necessari per creare un account Azure NetApp Files , che include nome, sottoscrizione Azure, posizione e gruppo di risorse."]
+
+** *Pool di capacità*: seleziona un pool di capacità esistente o creane uno nuovo.
++
+Se si crea un nuovo pool di capacità, specificare la dimensione e https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels["livello di servizio"^] .
+
++
+La dimensione minima per un pool di capacità è 1 TB.
+
++
+image:screenshot-create-capacity-pool.png["Screenshot del menu di creazione del pool di capacità."]
+
+** *Dettagli e tag*: immettere il nome e le dimensioni del volume, la rete virtuale e la subnet in cui deve risiedere il volume e, facoltativamente, specificare i tag per il volume.  Scegli la rete *Standard* o *Base*.  *Standard* supporta le funzionalità di rete virtuale (VNet), mentre *Basic* ha limiti IP ridotti e nessuna funzionalità VNet aggiuntiva per il volume. Per ulteriori informazioni, consultare link:https://learn.microsoft.com/azure/azure-netapp-files/configure-network-features["Configurare le funzionalità di rete"^] .
++
+image:screenshot-create-volume.gif["Screenshot delle opzioni di creazione del volume."]
+
+** *Protocollo*: scegliere il protocollo NFS o SMB e immettere le informazioni richieste.
++
+Se si sceglie NFS, è necessario immettere il *Percorso del volume*, scegliere la *Versione NFS* e impostare la *Criterio di esportazione*.
+
++
+image:screenshot-protocol-nfs.png["Uno screenshot dei campi necessari per impostare un volume NFS."]
+
++
+Se si sceglie SMB, è necessario immettere il **Percorso del volume**, quindi configurare la connettività SMB con l'**Indirizzo IP primario DNS** e i dettagli di configurazione di Active Directory.
+
++
+image:screenshot-protocol-smb.png["Uno screenshot dei campi necessari per impostare un volume SMB."]
+
+
+
+. Se si desidera che questo volume venga creato in base a uno snapshot di un volume esistente, selezionare lo snapshot dall'elenco a discesa Nome snapshot.
+. Selezionare *Aggiungi volume*.
+. Dopo aver creato il volume, dovresti procedere a<<Montare i volumi,montare il volume cloud>> .
+
+
+
+
+== Montare i volumi
+
+Accedi alle istruzioni di montaggio dalla console NetApp per poter montare il volume su un host.
+
+.Passi
+. Nella console NetApp , aprire il sistema Azure NetApp Files .
+. Sposta il cursore sul volume, quindi seleziona i tre punti `...` accanto allo stato del volume.
+. Selezionare **Monta il volume**.
++
+image:screenshot-volume-options.png["Uno screenshot delle operazioni disponibili quando si passa il cursore su un volume."]
+
+. Seguire le istruzioni per montare il volume.
+
